@@ -1,0 +1,22 @@
+numpy
+pandas
+
+# FACE recognition
+scikit-learn
+dlib-bin
+
+
+#this is used for embedding --> or say to detect the vector point in a image(face)for recognition.
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
+
+#supabase provide the storage 
+supabase
+#provide methods of hashing 
+bcrypt
+
+segno # used for generating qr code  
+pillow #preprocessing the image in face recoginition
+
+streamlit # for creating  a  frontend 
