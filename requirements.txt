@@ -26,6 +26,6 @@ pillow #preprocessing the image in face recoginition
 
 
 librosa # for audio analysis, not editing. It's built for extracting information from audio,
-resemblyzer# create the embedding of the info from audio  so that we can compare voice from multiple audio.
+resemblyzer # create the embedding of the info from audio  so that we can compare voice from multiple audio.
 
 # .read() fetches the binary data, and a library like librosa decodes it into something you can analyze.
