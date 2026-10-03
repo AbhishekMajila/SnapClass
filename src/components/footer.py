@@ -8,3 +8,14 @@ def footer_home():
             <p style="font-weight:bold; color:#FF5733;">ABHISHEK MAJILA</p>
         </div>
     """, unsafe_allow_html=True)
+    
+def footer_dashboard():
+    
+    st.markdown(f"""
+        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
+        <p style="font-weight:bold; color:black;"> Created with ❤️ by </p>  
+        <p style="font-weight:bold; color:#FF5733;">ABHISHEK MAJILA</p>
+        </div>
+                
+                """, unsafe_allow_html=True)
+    
