@@ -12,7 +12,7 @@ dlib-bin
 
 #this is used for embedding --> or say to detect the vector point in a image(face)for recognition.
 git+https://github.com/ageitgey/face_recognition_models
-setuptools<70.0.0
+setuptools<81
 
 
 #supabase provide the storage 
@@ -29,3 +29,5 @@ librosa # for audio analysis, not editing. It's built for extracting information
 resemblyzer # create the embedding of the info from audio  so that we can compare voice from multiple audio.
 
 # .read() fetches the binary data, and a library like librosa decodes it into something you can analyze.
+
+webrtcvad-wheels
